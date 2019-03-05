@@ -2,7 +2,7 @@
 This is the test code for IJCAI 2019 submission
 
 Testing:
-Step 1: download the compressed model from [Baidu Yun model]() or [Google Driver model]()
+Step 1: download the compressed model from [Baidu Yun model](https://pan.baidu.com/s/1DEyToD1iLLfCDa-cIQS4gQ) with password:bg15 or [Google Driver model]()
 and put it in the root folder and unzip it.
 
 Step 2: Change the root for retored model and Run test_vocSGIR_vgg.py for SGIR-vgg16 evaluation, the predictions will be saved in SAVE_DIR = './result/'. Mean IoU of 58.8 can be achieved.
