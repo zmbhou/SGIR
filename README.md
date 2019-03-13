@@ -9,7 +9,7 @@ Step 2: Change the root for retored model and Run test_vocSGIR_vgg.py for SGIR-v
 
 Step 3: Change the root for retored model and Run test_vocSGIR_resnet for SGIR-resnet101 evaluation, the predictions will be saved in SAVE_DIR = './resultresnet/'. Mean IoU of 64.0 can be achieved.
 
-Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. 
+Step 4:  Please refer to Deeplabv2 for runing multi-scalf fusion and CRF as post-processing. 
 
 Step 5: we have provided the matlab code for evaluation. You can evaluate the resutls and obtain Iou youself. Please refer to https://github.com/zmbhou/IoUeval.
 
