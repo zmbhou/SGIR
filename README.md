@@ -5,9 +5,9 @@ Testing:
 Step 1: download the compressed model from [Baidu Yun model](https://pan.baidu.com/s/1DEyToD1iLLfCDa-cIQS4gQ) with password:bg15 or [Google Driver model](https://drive.google.com/file/d/1zAzeztLJIPLvVKt2sKgfoued6tXgFCwC/view?usp=sharing)
 and put it in the root folder and unzip it.
 
-Step 2: Change the root for retored model and Run test_vocSGIR_vgg.py for SGIR-vgg16 evaluation, the predictions will be saved in SAVE_DIR = './result/'. Mean IoU of 58.8 can be achieved.
+Step 2: Change the root for retored model and Run test_vocSGIR_vgg.py for SGIR-vgg16 evaluation, the predictions will be saved in SAVE_DIR = './result/'. Mean IoU of 58.8 can be achieved on PASCAL VOC 2012 validation dataset.
 
-Step 3: Change the root for retored model and Run test_vocSGIR_resnet for SGIR-resnet101 evaluation, the predictions will be saved in SAVE_DIR = './resultresnet/'. Mean IoU of 64.0 can be achieved.
+Step 3: Change the root for retored model and Run test_vocSGIR_resnet for SGIR-resnet101 evaluation, the predictions will be saved in SAVE_DIR = './resultresnet/'. Mean IoU of 64.0 can be achieved on PASCAL VOC 2012 validation dataset.
 
 Step 4:  Please refer to Deeplabv2 for runing multi-scalf fusion and CRF as post-processing. 
 
