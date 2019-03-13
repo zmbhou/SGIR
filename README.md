@@ -9,6 +9,8 @@ Step 2: Change the root for retored model and Run test_vocSGIR_vgg.py for SGIR-v
 
 Step 3: Change the root for retored model and Run test_vocSGIR_resnet for SGIR-resnet101 evaluation, the predictions will be saved in SAVE_DIR = './resultresnet/'. Mean IoU of 64.0 can be achieved.
 
-Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. The mean IoU of 61.4 and 64.8 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively. 
+Step 4:  Please refer to Deeplabv2 for runing CRF as post-processing. 
 
 Step 5: we have provided the matlab code for evaluation. You can evaluate the resutls and obtain Iou youself. Please refer to https://github.com/zmbhou/IoUeval.
+
+Results: The mean IoU of 61.4 and 64.8 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.3 and 65.4 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
