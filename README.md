@@ -1,5 +1,5 @@
 
-This is the test code for IJCAI 2019 submission
+This is the test code for IJCAI 2019 submission "Saliency Guided Iterative Training for Weakly Supervised Semantic Segmentation"
 
 Testing:
 Step 1: download the compressed model from [Baidu Yun model](https://pan.baidu.com/s/1DEyToD1iLLfCDa-cIQS4gQ) with password:bg15 or [Google Driver model](https://drive.google.com/file/d/1zAzeztLJIPLvVKt2sKgfoued6tXgFCwC/view?usp=sharing)
