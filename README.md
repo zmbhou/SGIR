@@ -22,9 +22,24 @@ Figure 1: Illustration of Four States in the Process of Training Samples Updatin
 ====
 ![image](https://github.com/zmbhou/SGIR/blob/master/picture/iterativeGTs.png)
 
+Q1 stands for the quality of the initial proxy GTs used for iteration 0;
+Q2 stands for the quality of the refined proxy GTs genrated by the updated segmentation model in the iterative retraining process.
+Q3 stands for the quality of the proxy GTs refined by saliency.
+
+In state 1, Q1<Q2<Q3
+
+In state 2,  Q1<Q2, Q2>Q3
+
+In state 3, Q1>Q2, Q3>Q2
+
+In state 4, Q1>Q2>Q3.
+
 Figure 2: Visual Comparison between Methods<br />
 ====
 ![image](https://github.com/zmbhou/SGIR/blob/master/picture/visialcomparison.png)
 
+DSRG is the method proposed in CVPR 2018 paper "Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing"
+
+SEENET is the method proposed in NIPS 2018 paper "Self-Erasing Network for Integral Object Attention"
 
 
