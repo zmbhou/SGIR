@@ -15,3 +15,6 @@ Step 5: we have provided the matlab code for evaluation. You can evaluate the re
 
 Results: 
 The mean IoU of 61.4 and 64.8 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.3 and 65.4 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
+
+
+![image]（https://github.com/zmbhou/SGIR/blob/masterpicture/visial comparison.png）
