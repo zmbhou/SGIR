@@ -1,5 +1,5 @@
 
-This is the test code for IJCAI 2019 submission "Saliency Guided Iterative Training for Weakly Supervised Semantic Segmentation"
+This is the test code for method "Saliency Guided Iterative Training for Weakly Supervised Semantic Segmentation"
 
 Testing:
 ====
