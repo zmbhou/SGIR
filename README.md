@@ -1,5 +1,6 @@
 
-This is the test code for method "Saliency Guided Iterative Training for Weakly Supervised Semantic Segmentation"
+This is the test code for method "IASR:Iterative Annotation Selection and Refinement for Weakly Supervised
+Semantic Segmentation"
 
 Testing:
 ====
@@ -16,7 +17,7 @@ Step 5: we have provided the matlab code for evaluation. You can evaluate the re
 
 Results: 
 ====
-The mean IoU of 61.4 and 64.8 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.3 and 65.4 can be achieved for SGIR-vgg16 and SGIR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
+The mean IoU of 61.9 and 66.8 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.5 and 67.6 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
 
 Figure 1: Illustration of Four States in the Process of Training Samples Updating:
 ====
