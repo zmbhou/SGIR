@@ -17,7 +17,7 @@ Step 5: we have provided the matlab code for evaluation. You can evaluate the re
 
 Results: 
 ====
-The mean IoU of 61.9 and 66.8 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.5 and 67.6 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
+The mean IoU of 61.9 and 66.8 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 validation dataset. The mean IoU of 62.7 and 67.6 can be achieved for IASR-vgg16 and IASR-resnet101, respectively on the PASCAL voc 2012 test dataset. 
 
 Figure 1: Illustration of Four States in the Process of Training Samples Updating:
 ====
